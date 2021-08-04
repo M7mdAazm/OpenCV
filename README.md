@@ -13,8 +13,8 @@ https://drive.google.com/file/d/1pomC9Zw178nxgNOrpemaQfSH8rSVyMBD/view
 ...  
   
     
-    
-`import cv2
+ ```   
+import cv2
 
 cascade_classifier = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_alt.xml')
 cap = cv2.VideoCapture(0)
@@ -39,5 +39,4 @@ while True:
 
 # When everything done, release the capture
 cap.release()
-cv2.destroyAllWindows()
-`  
+cv2.destroyAllWindows()  
